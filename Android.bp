@@ -1096,7 +1096,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
-			shared_libs: ["libqdi", "libdiag", "libcutils", "liblog", "libdsutils", "libconfigdb", "libqmiservices", "libqmi_cci", "libqmi_common_so", "libqmi_client_qmux", "libqmi_client_helper", "libqmi", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libqdi", "libdiag", "libcutils", "liblog", "libdsutils", "libqmiservices", "libqmi_cci", "libqmi_common_so", "libqmi_client_qmux", "libqmi_client_helper", "libqmi", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
